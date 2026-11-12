@@ -32,7 +32,7 @@ SMTP_CONFIGS = {
     "163.com": {"server": "smtp.163.com", "port": 465, "ssl": True},
     "126.com": {"server": "smtp.126.com", "port": 465, "ssl": True},
     # Gmail
-    "gmail.com": {"server": "smtp.gmail.com", "port": 587, "ssl": False},
+    "gmail.com": {"server": "smtp.gmail.com", "port": 465, "ssl": True},
     # Outlook
     "outlook.com": {"server": "smtp-mail.outlook.com", "port": 587, "ssl": False},
     "hotmail.com": {"server": "smtp-mail.outlook.com", "port": 587, "ssl": False},
